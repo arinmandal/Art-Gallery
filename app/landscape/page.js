@@ -1,6 +1,6 @@
 'use client'
 import axios from "axios";
-import Gallery from "@/Components/Gallery";
+import Gallery from "@/components/Gallery";
 import { useState, useEffect } from "react"
 const page = () => {
   const [grayImages, setGrayImages] = useState([]);
@@ -18,7 +18,7 @@ const page = () => {
   return (
     <div className="bg-gray-400 w-full items-center flex flex-wrap justify-evenly">.
       {grayImages.map((img) => <Gallery img={img} />)}
-      
+
     </div>
   )
 }

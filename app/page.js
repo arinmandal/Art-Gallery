@@ -1,5 +1,5 @@
 "use client"
-import Gallery from "@/Components/Gallery";
+import Gallery from "@/components/Gallery";
 import axios from "axios";
 import { useEffect, useState } from "react";
 // import Gallery from "@/Components/Gallery"
