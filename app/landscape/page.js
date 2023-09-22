@@ -1,4 +1,5 @@
 'use client'
+import "./globals.css"
 import axios from "axios";
 import Gallery from "@/components/Gallery";
 import { useState, useEffect } from "react"
